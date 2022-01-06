@@ -1,0 +1,107 @@
+/*서브페이지 접속시 헤더배경 바뀌게*/
+.main{
+    background-image: url('../img/subpagemain.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#headerwrapper{
+    height: 294px;
+}
+
+
+/*서브타이틀*/
+#menutitle{
+    height: 100px;
+    background-color: rgb(56, 56, 56);
+    font-family: 'KoddiUDOnGothic-Regular';
+}
+
+.menutitlewrap{
+    width: 1200px;
+    margin:0 auto;
+    padding-left: 60px;
+    padding-top:50px;
+    color: white;
+    font-size: 0.9em;
+}
+
+.menutitlewrap h2{
+    display: inline-block;
+    color: white;
+    font-size: 2.1em;
+}
+
+.menutitlewrap span a{
+    color: white;
+    font-size: 0.9em;
+}
+
+
+/*본문*/
+.contents{
+    overflow: auto;
+}
+
+.contentstitle{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    line-height : 100px;
+    padding: 0 80px;
+    margin-bottom: 30px;
+}
+
+.contentstitle h3{
+    font-family: 'KoddiUDOnGothic-Bold';
+    display: inline;
+    color: rgb(158, 158, 158);
+    font-size: 1.4em;
+    border-bottom: 2px solid rgb(255, 115, 0);
+    padding: 0;
+    margin:0;
+}
+
+.contentstitle h4{
+    display: inline;
+    color: rgb(158, 158, 158);
+    font-family: 'KoddiUDOnGothic-Regular';
+}
+
+.contentwrapper{
+    width: 1500px;
+    overflow:auto;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.sidebar{
+    width: 160px;
+    border-right: 2px solid rgb(158, 158, 158);
+    float: left;
+}
+
+.sidebar>li{
+    padding-bottom: 20px;
+}
+
+.sidebar>li>a, .subsidebar>li>a{
+    font-family: 'KoddiUDOnGothic-Regular';
+}
+
+.sidebar>li>a:hover{
+    color: orange;
+}
+
+.subsidebar>li{
+    font-size: 0.8em;
+    padding: 8px 0px;
+}
+
+.subsidebar>li:first-child{
+    padding-top: 20px;
+}
+
+.subsidebar>li>a:hover{
+    color: orange;
+}

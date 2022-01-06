@@ -1,0 +1,200 @@
+a{
+    text-decoration: none;
+    color: #333333;
+}
+
+#pubhead{
+    width: 1200px;
+    height: 40px;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+    line-height: 40px;
+    text-align: center;
+}
+
+#pubmenu{
+    position: absolute;
+    font-size: 1.5em;
+    left: 0;
+    top: -1px;
+}
+
+#publogo{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#publogo img{
+    width: 90px;
+}
+
+#menuico{
+    position: absolute;
+    left: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+/*메인*/
+
+/*헤더 네비게이션*/
+
+.main{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    width: 1200px;
+    height: 74px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#logo{
+    float: left;
+    margin-left:30px;
+    padding-top: 10px;
+}
+
+.mainmenu{
+    width: 1000px;
+    height: 40px;
+    background: #000;
+    float: right;
+    text-align: center;
+    margin: 35px 0px;
+}
+
+.mainmenu:hover .submenu{
+    opacity: 1;
+}
+
+.mainmenu>li{
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 200px;
+    height: 100%;
+    -display: inline-block;
+    -padding: 0px 72px;
+    line-height: 37px;
+}
+
+.mainmenu>li>a{
+    font-family: 'KoddiUDOnGothic-Regular';
+    color:white;
+    transition: color, color, 0.2s;
+}
+
+.mainmenu>li>a:hover{
+    color: rgb(255, 166, 0);
+    font-family: 'KoddiUDOnGothic-Regular';
+}
+
+.submenu{
+    width: 100%;
+    height: 150px;
+    float: left;
+    padding-top:15px;
+    margin-top: 1px;
+    opacity: 0;
+    background: rgb(104, 56, 143);
+    transition-duration: 0.5s;
+    z-index: 10;
+}
+.submenu>li{
+    line-height: 19px;
+}
+
+.submenu>li>a{
+    font-family: 'KoddiUDOnGothic-Regular';
+    color: white;
+    display:inline-block; 
+    font-size: 0.80em;
+    transition:linear 0.1s;
+    text-transform:uppercase; 
+    transition: font-size 250ms ease-in-out;
+}
+
+.submenu>li>a:after{
+    display:block;
+    content: '';
+    border-bottom: solid 2px #ff9900;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+
+.submenu>li>a:hover{
+    font-size: 1em;
+} 
+.submenu>li>a:hover:after{
+    transform: scaleX(1); 
+}
+
+/*콘텐츠영역*/
+
+article{
+    width: 100%;
+}
+
+
+/*푸터*/
+
+footer{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(44, 44, 65);
+}
+
+.footerwrapper{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.footerwrapper div{
+    float: left;
+}
+.addressfooter{
+    width: 900px;
+}
+    
+address{
+    text-align: left;
+    color: white;
+    font-size: 0.8em;
+    line-height: 17px;
+    font-family: 'KoddiUDOnGothic-Regular';
+}
+
+p.linkto{
+    color: #cccccc;
+    font-family: 'KoddiUDOnGothic-Regular';
+}
+
+address p:last-child{
+    color: rgb(136, 136, 136);
+    font-family: 'KoddiUDOnGothic-Regular';
+}
+
+select{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    width: 250px;
+    height: 40px;
+    padding: 5px;
+    color: white;
+    font-family: 'KoddiUDOnGothic-Regular';
+}
+
+option{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+    font-family: 'KoddiUDOnGothic-Regular';
+}
+

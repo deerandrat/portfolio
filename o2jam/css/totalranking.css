@@ -1,0 +1,118 @@
+.content{
+    float: left;
+    width: 1300px;
+    padding: 0 100px;
+    margin-bottom: 100px;
+}
+
+.rankingheader{
+    width: 997px;
+    height: 205px;
+    background-image: url('../img/rankinghead.jpg');
+    background-repeat: no-repeat;
+    text-align: right;
+    position: relative;
+}
+
+select.searchmethod{
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    top: 155px;
+    right: 225px;
+    font-size: 0.8em;
+    background-color:rgba(0,0,0,0.2);
+    appearance: none;
+    text-align: center;
+    
+}
+
+.searchbox{
+    position: absolute;
+    top: 155px;
+    right: 50px;
+    height: 30px;
+    border: 1px solid white;
+    text-indent: 12px;
+    
+}
+
+.searchbox[type="text"]:focus{
+    outline: none;
+}
+
+.submitsearch{
+    position: absolute;
+    top: 150px;
+    right: 40px;
+    padding: 6px 10px;
+    margin-top: 6px;
+    margin-right: 14px;
+    font-size: 14px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+/*랭킹차트*/
+table{
+    width: 997px;
+    border: 1px solid rgb(107, 107, 107);
+    border-collapse: collapse;
+}
+
+tr{
+    border: 1px solid rgb(107, 107, 107);
+}
+
+tr>td{
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 0.9em;
+    border: 1px solid rgb(208, 208, 208);
+}
+
+tr>td:first-child{
+    color: rgb(1, 166, 255)
+}
+
+.topchart{
+    height: 50px;
+    background-color: orange;
+    color: white;
+    font-family: 'KoddiUDOnGothic-Regular';
+    vertical-align: middle;
+}
+
+.topchart>th{
+    vertical-align: middle;
+}
+
+.listbutton{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.listbutton strong{
+    color: orange;
+    font-weight: bold;
+}
+
+.listbutton button{
+    border-radius: 2px;
+    color: white;
+    border: none;
+}
+
+.tenbtn{
+    background-color: rgb(68, 133, 218);
+    width: 20px;  
+    margin: 8px;
+    
+}
+
+.hundbtn{
+    background-color: rgb(116, 126, 140);
+    border-radius: 2px;
+    width: 30px;
+}

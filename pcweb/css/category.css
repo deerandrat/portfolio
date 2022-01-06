@@ -1,0 +1,61 @@
+/*분류 온오프*/
+
+div.sortingcate{
+    margin-top: 10px;
+}
+
+div#catetable.close{
+    display: none;
+}
+
+table#recipecategory{
+    margin: 0px auto;
+    padding: 0;
+    width: 1240px;
+    height: 220px;
+    border-collapse: collapse;
+}
+
+tbody.recipe_cate{
+    background-color: rgb(255, 255, 255);
+}
+
+.recipe_cate tr{
+    border: 1px solid rgb(209, 209, 209);
+}
+
+.recipe_cate th{
+    width: 100px;
+    border: 1px solid rgb(209, 209, 209);
+}
+
+.recipe_cate td{
+    border: 1px solid rgb(209, 209, 209);
+}
+
+.recipe_cate th>span{
+    display: block;
+    font-size: 17px;
+    font-weight: normal;
+    margin: 20px;
+    color: rgb(103, 187, 54);
+}
+
+.cate_list{
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.cate_list a{
+    margin-right: 2px;
+}
+
+#recipecateclose{
+    width: 1240px;
+    height: 40px;
+    line-height: 40px;
+    background-color: white;
+    border: 1px solid rgb(209, 209, 209);
+    text-align: center;
+}
+

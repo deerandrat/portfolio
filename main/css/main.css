@@ -1,0 +1,58 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box; font-size: 16px; font-family: 'OTWelcomeRA';}
+li{
+    list-style: none; }
+a{
+    text-decoration: none; color: #000;}
+body{width: auto; background-color: rgb(255, 255, 255);}
+div.wrapper{width: 1200px; margin: 0 auto;}
+
+header{position: fixed; width:100%; height: 12vh; line-height: 12vh; background-color: rgb(255, 255, 255); z-index: 99;}
+
+div.logo{float: left; margin-left: 10%;}
+div.logo a{font-size: 1.2vw; color: rgb(224, 45, 45); transition: color 0.2s;}
+div.logo a:hover{color: rgb(0, 0, 0);}
+
+ul.mainmenu{width: 50%; float: right; margin-right: 10%;}
+ul.mainmenu li{float: right; padding: 0 1.7vw;}
+ul.mainmenu li a{color: black;  font-size: 1.3vw; transition: color 0.2s; font-weight:bold;}
+ul.mainmenu li a:hover{ color: rgb(224, 45, 45);}
+
+div#fullpage>div.contents{width:100%; padding: 1.2rem;}
+div.contents>div h2{font-size: 5rem; text-align: center;}
+
+div#section0 h2{font-size: 5rem; line-height:4.1rem;text-shadow: 0.5rem 0.1rem 15rem rgb(255, 2, 2); font-weight: lighter;}
+div#section0 p{font-size: 0.9rem;}
+
+div#fp-nav{margin-right: 2%;}
+div#fp-nav ul li{width: 20px; height: 50px;}
+
+div.works{width: 100%;}
+div.work{float:left; width: 46%; margin: 0 auto; text-align: center; margin: 2%;}
+div.works img{width:100%;}
+div.workdisc{position: relative; margin-top:2rem;}
+div.works h4{font-size: 1.6rem; font-weight: normal;}
+div.works p{margin-top: 1rem; font-size: 0.9rem;}
+
+div.namecard{width:100%; height:60%; border: 1px solid rgb(168, 151, 151); border-radius: 30px; display: table; padding: 5%;} 
+div#section2 .image{display:table-cell; vertical-align:middle; width:30%;}
+div#section2 .text{display:table-cell; vertical-align:middle;  width:50%; padding: 2%;}
+div#section2 .text p{padding-top: 0.7vw;}
+
+div.skillchart{position:relative; margin:2%; width:100%; height:60%; border: 1px solid rgb(168, 151, 151); background-color: rgb(61, 57, 77); border-radius: 30px;}
+div.skillchart h4{position: absolute; right:20px; text-align: right; font-style: italic; font-weight: normal; font-size: 5rem; margin: 20px; opacity: 0.14; text-shadow: 2px 1px 1px rgb(110, 104, 134);} 
+
+div.chartleft {height: 100%;}
+div.chartleft table{height: 80%; padding-top: 8%; padding-left: 3%;}
+div.chartleft tr{width:25%; border-right: 5px dashed white;}
+div.chartleft td{padding: 1rem;}
+div.chartleft td, div.chartleft td i{color: rgb(255, 255, 255); font-size: 180%; vertical-align: middle;}
+
+div.chartleft .graphbar{float: right; width: 80%; height: 20%; background-color: aqua;  transition: all 600ms ease; }
+
+footer{position: fixed; bottom: 0; width:100%; height: 7vh; line-height: 7vh; background-color: rgb(223, 210, 210); z-index: 99;}
+footer address{text-align: center; color: rgb(80, 79, 79); font-style: normal; font-size: 0.7vw;}
+
+div#section4 .contact{width:80%; margin: 0 auto; text-align: center;}
+div#section4 .contact img{display: block; width:40%; margin: 0 auto;}
+div#section4 .contact i{font-size: 3rem; padding: 0.5rem;}

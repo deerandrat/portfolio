@@ -1,0 +1,123 @@
+/*헤더영역*/
+header{
+    width: 100%;
+    height: 220px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/*탑영역*/
+.top{
+    width: 1240px;
+    margin: 0 auto; 
+}
+
+#logo {
+    width: 280px;
+    height: 105px;
+    float: left;
+}
+
+#logo img{
+    margin: 33px 47px;
+}
+
+#user {
+    width: 560px;
+    height: 100px;
+    margin: 12px 20px;
+    float: left;
+    line-height: 50px;
+}
+
+.userico{
+    width: 42px;
+    height: 42px;
+    float: left;
+    padding:30px 0px;
+
+}
+
+.userinfo{
+    float: left;
+    margin: 0px 0px 0px 10px;
+}
+
+.userinfo p{
+    color: #76c747;
+}
+
+#user p{
+    display: inline-block;
+    font-size: 18px;
+    height: 42px;
+    padding:30px 0px;
+}
+.recipe { 
+    width: 260px;
+    height: 90px;
+    float: left;
+    margin-top: 40px;
+}
+
+
+/*검색영역*/
+.searchSection{
+    width: 1240px;
+    margin: 0 auto;
+}
+div.list{
+     width: 300px;
+     float: left;
+}
+ul.searchlist {
+    position: relative;
+    top:15px;
+    display: block;
+}
+
+.searchlist li {
+    list-style: none;
+    display: inline;
+}
+
+.searchlist li a{
+    color: gray;
+}
+
+div.search{
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+div.search input{
+    text-indent: 20pt;
+}
+
+#search {
+    float: left;
+    position: relative;
+    display: block;
+    border: 1px solid gray;
+    border-radius: 2px;
+    background-color: rgb(245, 245, 245);
+    width: 600px;
+    height: 40px;
+}
+
+.searchButton {
+    float: left;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(103, 187, 54); 
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid rgb(58, 133, 15);
+    color: white;
+    font-size: 130%;
+}
+
+.storelink{
+    float: right;
+    margin-right: 30px;
+}

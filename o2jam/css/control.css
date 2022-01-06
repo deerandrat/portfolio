@@ -1,0 +1,43 @@
+
+
+.content{
+    float: left;
+    width: 1300px;
+    padding: 0 100px;
+    margin-bottom: 100px;
+    font-family: 'GongGothicLight';
+}
+
+.content h3{
+    font-family: 'GongGothicMedium';
+    font-size: 1.4em;
+}
+
+.content>div p{
+    font-family: 'GongGothicLight';
+    font-size: 0.9em;
+    text-indent: -110px;
+    padding-left: 150px;
+    line-height: 30px;
+}
+
+.content>div>p>strong{
+    color: rgb(0, 138, 230);
+}
+
+.content img{
+    display: block;
+    margin: 0 auto;
+}
+
+.imagewrap{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.imagewrap img{
+    display: inline;
+    margin: 0 30px;
+}
+
+

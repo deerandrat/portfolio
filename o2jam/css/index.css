@@ -1,0 +1,511 @@
+
+.main{
+    background-image: url('../img/mainbg.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+/*메인배너*/
+
+#mainbanner{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 115px;
+    height: 800px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 45px 45px 0 0;
+}
+
+.mainslide{height: 500px; padding-top: 40px;}
+
+.swiper{
+    width: 100%;
+    z-index: 1;
+}
+.eventtitle{
+    width: 500px;
+    padding-top: 50px;
+    margin-left: 80px;
+    color: white;
+    float: left;
+    font-family: 'KoddiUDOnGothic-Regular';
+}
+
+.eventtitle h2{
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+
+.eventimage{
+    float: right;
+    text-align: right;
+}
+
+.swiper-pagination{
+    text-align: left;
+    padding-left: 70px;
+    margin-bottom: 30px;
+}
+
+.swiper-pagination-bullet{
+    width: 18px; height: 18px;
+    opacity: 1;
+    background-color: white;
+    border: 1px solid rgb(175, 175, 175);
+}
+
+.swiper-pagination-bullet-active{
+    background-color: rgb(255, 115, 0)
+}
+
+/*대시보드*/
+#dashboard{
+    width: 1200px;
+    height: 250px;
+}
+
+.notice{
+    width: 429px;
+    height: 223px;
+    margin:10px 0px;
+    float: left;
+    background:rgba(255, 255, 255, 0) url('../img/notice.jpg');
+    font-family: 'GongGothicLight';
+    font-size: 0.9em;
+}
+.notice h4{
+    display: none;
+}
+
+.notice table{
+    width: 429px;
+    margin-top: 50px;
+}
+
+.notice table tbody{
+    width: 429px;
+    overflow: auto;
+    padding: 20px;
+
+    position: relative;
+}
+
+.notice table tr{
+    -display: inline-block;
+}
+
+.notice table td{
+    display: block;
+    margin: 11px 20px;
+    color: rgb(99, 99, 99);
+}
+
+.notice table tr:hover>td>a{
+    color: orange;
+}
+
+
+.notice table td:first-child{
+    font-family: 'GongGothicMedium';
+    float: left;
+    font-size: 1em;
+    padding: 0px 10px;
+}
+
+.notice table td:last-child{
+    float: right;
+    font-size: 0.8em;
+    margin-left: 80px;
+    padding-right: 15px;
+}
+
+
+#gamestart{
+    margin-top: -10px;
+    margin-left: 40px;
+    float: left;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    border-radius: 50%;
+    transition-duration: 0.4s;
+}
+
+#gamestart img{
+    width: 250px;
+}
+
+#gamestart:hover{
+    background: linear-gradient(rgb(215, 255, 192),rgb(192, 129, 255));
+    box-shadow: 0px 0px 15px 10px rgb(196, 54, 252);
+}
+
+.login{
+    float: right;
+    position: relative;
+    top: 50px;
+}
+
+.login, .loginput, .alterlogin{
+    width: 425px;
+    position: relative;
+}
+
+.loginput input{
+    text-indent: 7px;
+    width: 270px;
+    height: 33px;
+    margin: 2px;
+    border: 1px solid rgb(196, 196, 196);
+    background-color: rgb(242, 242, 242);
+}
+
+.loginput input[type="text"]:focus{
+    outline: none;
+}
+
+.loginput button{
+    border: 1px solid rgb(255, 150, 13);
+    background-color: orange;
+    color: white;
+    position: relative;
+    top: -35px;
+    float: right;
+    width: 149px;
+    height: 70px;
+    cursor: pointer;
+    font-family: 'KoddiUDOnGothic-Regular';
+}
+
+.login span{
+    position: absolute;
+    font-size: 0.75em;
+}
+
+.login span, .login span a{
+    color: rgb(43, 43, 43);
+    font-family: 'KoddiUDOnGothic-Regular';
+}
+
+.findid, .signin{
+    top: 78px;
+}
+
+.findid, .alter{
+    left: 3px;
+}
+
+.signin{
+    right: 0px;
+}
+
+.alterlogin{
+    margin-top:15px;
+}
+
+div.alterloginbtn{
+    position: absolute;
+    top:-10px;
+    right:0px;
+}
+
+.alterloginbtn button{
+    width:135px;
+    height: 30px;
+    color: white;
+    border: 1px solid rgb(196, 196, 196);
+    font-size: 0.7em;
+}
+
+.alterloginbtn button a{
+    color: white;
+}
+
+button#jamitson{
+    font-family: 'KoddiUDOnGothic-Regular';
+    background-color: rgb(255, 48, 48);
+    position: relative;
+    left:3px;
+}
+
+button#naver{
+    font-family: 'KoddiUDOnGothic-Regular';
+    background-color: rgb(0, 194, 97);
+}
+
+/*콘텐츠영역*/
+
+/*신규 업데이트*/
+
+#update, #community, #shortcut{
+    margin: 0 auto;
+    font-family: 'KoddiUDOnGothic-Regular';
+}
+
+#update{
+    background-color: white;
+    width: 1200px;
+    height: 650px;
+    padding-top: 60px;
+}
+
+.itemupdate{
+    width: 487px;
+    height: 455px;
+    background-image: url('../img/itemdiv.jpg');
+    position: relative;
+    float: left;
+    clear: both;
+}
+
+.itemupdatebanner{
+    position: absolute;
+    top: 30px;
+    background-image: url('../img/item0929.jpg');
+    width: 487px;
+    height: 410px;
+}
+
+.playlistupdate{
+    float: right;
+    width: 688px;
+    height: 455px;
+    background-image: url('../img/playlistdiv.jpg');
+}
+
+.albumthm{
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 588px;
+    height: 150px;
+    text-align: center;
+}
+
+div.playlist{
+    display: inline-block;
+    padding: 10px;
+}
+
+div.playlist img{
+    width: 120px;
+    padding-bottom: 10px;
+}
+
+div.playlist h5, h6{
+    text-align: center;
+}
+
+div.playlist h5{
+    font-size: 0.8em;
+}
+
+div.playlist h6{
+    padding-top: 0px;
+    font-size: 0.6em;
+}
+
+/*커뮤니티*/
+
+#community{
+    background: #4b5860 url('../img/comubg.jpg') no-repeat center;
+    height: 1380px;
+}
+
+.communitywrapper{
+    padding-top: 30px;
+}
+
+#community h2{
+    width: 500px;
+    height: 140px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 250px;
+    color:white;
+    font-size: 2.9em;
+    background-image: url('../img/o2jami.png');
+    background-repeat: no-repeat;
+}
+
+#community h3{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color:#bbbbbb;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.walkthrough, .avatartalk{
+    padding: 20px;
+    padding-top: 40px;
+    margin: 8px auto;
+    width: 1200px;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'GongGothicMedium';
+    font-size: 0.9em;
+}
+
+.walkthrough{
+    height: 342px;
+    background: url('../img/walkthroughbg.png') no-repeat center;
+}
+
+.avatartalk{
+    height: 693px;
+    background:  url('../img/avatartalkbg.png') no-repeat center;
+}
+
+.walkthrough>div, .avatarwrap>div{
+    width: 261px;
+    display: inline-block;
+    margin: 0 auto;
+    margin: 16.3px;
+    line-height: 1.2em;
+}
+
+.walkthrough>div:first-child{margin-left: 0px;}
+.walkthrough>div:last-child{margin-right: 0px;}
+
+.walkthrough>div b{
+    color: rgb(126, 126, 126);
+}
+
+.walkthrough>div div{
+    width: 261px;
+    height: 173px;
+    overflow: hidden;
+}
+.walkthrough>div img{
+    width: 261px;
+}
+
+.avatarwrap>div:first-child{margin-left: 0px;}
+.avatarwrap>div:last-child{margin-right: 0px;}
+
+.avatarwrap>div b{color: rgb(0, 109, 235);}
+.avatarwrap>div i{
+    display: block;
+    text-align: right;
+    color: rgb(116, 116, 116);
+}
+
+
+/*게임 정보*/
+#shortcut{
+    background-color: #eeeeee;
+    height: 900px;
+}
+
+/*
+.shortcutwrapper{
+   padding-top: 20px;
+}
+*/
+
+.shortcutwrapper h2{
+    width: 500px;
+    height: 140px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 250px;
+    color:#000000;
+    font-size: 2.9em;
+}
+
+.shortcutwrapper h3{
+    padding-top: 10px;
+    padding-bottom: 80px;
+    color:#5c5c5c;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.shortcut{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.shortcutbox{
+    float: left;
+    width: 383px;
+    border-radius: 4px;
+    background-color: rgb(221, 221, 221);
+    border: 1px solid #ccc;
+    margin-right:25px;
+    font-family: 'KoddiUDOnGothic-Regular';
+}
+.shortcut div.imgwrap{
+    width: 381px;
+    height: 381px;
+    border:hidden;
+    border-radius: 4px 4px 0 0;
+    display: inline-block;
+    overflow:hidden
+}
+
+.shortcut div:last-child{
+    margin-right: 0px;
+}
+
+.shortcut img{
+    border-radius: 4px 4px 0px 0px;
+    width: 381px;
+    text-align: center;
+    transition: 0.2s linear;
+}
+
+.shortcut div.shortcutbox:hover{background-color: orange;}
+.shortcut div.shortcutbox:hover img{transform: scale(1.1);}
+.shortcut div.shortcutbox:hover h4, .shortcut div.shortcutbox:hover p{color: white;}
+
+
+.shortcut h4{
+    color: rgb(44, 44, 44);
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.shortcut p{
+    font-family: 'GongGothicLight';
+    text-align: center;
+    color: rgb(102, 102, 102);
+    padding-bottom: 40px;
+    line-height: 20px;
+}
+
+
+/* SNS 푸터 */
+#sns{
+    width: 100%;
+}
+
+.snswrapper{
+    width: 1200px;
+    height: 114px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.snswrapper div:first-child{
+    float: left;
+    clear: both;
+}
+
+.snslist{
+    padding: 31px;
+    float: right;
+    padding-right: 0;
+}
+
+.snslist span{
+    display: inline-block;
+    margin: 0 15px;
+    font-family: 'KoddiUDOnGothic-Regular';
+}
+
+.snslist span img{
+    display: inline-block;
+    vertical-align: middle;
+}

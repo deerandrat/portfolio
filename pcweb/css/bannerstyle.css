@@ -1,0 +1,92 @@
+.contentsBox{
+    margin : 10px auto;
+    padding: 20px 50px;
+    background-color: #ffffff;
+    border: 1px solid rgb(209, 209, 209);
+    text-align: center;
+    position: relative;
+}
+
+dt{
+    font-size:150%;
+    text-align: left;
+    text-indent: 20px;
+    margin: 20px 0px;
+}
+
+dt h4{
+    display: inline-block;
+    font-weight: normal;
+}
+
+dt a{
+    color: #333333;
+}
+
+dt span{
+    color: rgb(103, 187, 54);
+    font-size: 1em;
+}
+
+div.more{float: right;}
+div.more a{color: rgb(153, 118, 118); border: 1px solid rgb(153, 118, 118); font-size: 13px; padding: 3px;}
+.contentsBox .banner{
+    display: inline-block;
+    text-align: center;
+    margin: 0px 4px;
+    width: 265px;
+}
+
+.contentsBox .banner img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+}
+
+.bannerdiscription h4{
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.pricebox{
+    text-align: left;
+}
+
+.pricebox strong{
+    color: #76c747;
+}
+
+.pricebox span{
+    font-size: 0.8em;
+    color: #838383;
+}
+
+.star{
+    text-align: left;
+}
+
+.star span{
+    text-align: right;
+}
+
+.contentsBoxArrow{
+    position: absolute;
+    top:40%;
+    cursor: pointer;
+}
+
+.prevarrow{
+    left:15px;
+}
+
+.nextarrow{
+    right:15px;
+}
+
+.slickList1>.slick-list{
+    height: 300px;
+}
+
+.slickList6>.slick-list{
+    height: 100px;
+}

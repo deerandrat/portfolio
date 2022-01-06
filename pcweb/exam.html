@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <style>
+        .multiple-items {
+            width: 1000px;
+            height: 200px;
+            border: 1px solid #000;
+            vertical-align: middle;
+        }
+
+        .post {
+            width: 250px;
+            height: 180px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a class="contentsBoxArrow" id="prevarrow"><img src="img/icon_arrow3_pre.png" alt=""></a>
+    <a class="contentsBoxArrow" id="nextarrow"><img src="img/icon_arrow3_next.png" alt=""></a>
+    <div class="multiple-items">
+        <div class="post">1</div>
+        <div class="post">2</div>
+        <div class="post">3</div>
+        <div class="post">4</div>
+        <div class="post">5</div>
+        <div class="post">6</div>
+        <div class="post">7</div>
+        <div class="post">8</div>
+        <div class="post">9</div>
+        <div class="post">10</div>
+        <div class="post">11</div>
+        <div class="post">12</div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.multiple-items').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            arrows: true,
+            prevArrow: $('#prevarrow'),
+            nextArrow: $('#nextarrow'),
+        });
+    </script>
+</body>
+
+</html>

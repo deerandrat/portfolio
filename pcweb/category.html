@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/pcweb.css">
+    <link rel="stylesheet" href="css/mainheader.css">
+    <link rel="stylesheet" href="css/bannerstyle.css">
+    <link rel="stylesheet" href="css/category.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <!--회원정보-->
+            <div id="logo"><a href="index.html"><img src="img/logo4.png" alt=""></a></div>
+
+            <div id="user">
+                <div class="userico"><a href="#"><img src="img/ico_user.png" alt=""></a></div>
+                <div class="userinfo">
+                    <p><b>추승민</b>회원님, 안녕하세요!</p>
+                    <p>작성레시피 <b>5건</b></p>
+                    <p>스크랩수 <b>36건</b></p>
+                </div>
+
+            </div>
+
+            <div class="recipe"><a href="#"><img src="img/recipewrite.png" alt=""></a></div>
+
+        </div>
+
+        <div class="searchSection">
+            <!--검색창-->
+            <div class="list">
+                <ul class="searchlist">
+                    <li><a href="#"><img src="img/btn_arrow2_l.gif" alt=""></a></li>
+                    <li><a href="#">밑반찬</a></li>
+                    <li><a href="#">다이어트</a></li>
+                    <li><a href="#">김치</a></li>
+                    <li><a href="#">밥도둑</a></li>
+                    <li><a href="#">가지</a></li>
+                    <li><a href="#"><img src="img/btn_arrow2_r.gif" alt=""></a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input type="text" id="search">
+                <button type="button" class="searchButton"><img src="img/" alt=""><i class="fas fa-search"></i></button>
+            </div>
+
+            <div class="storelink"><a href="#"><img src="img/tmn_store2.png" alt=""></a></div>
+        </div>
+    </header>
+    <nav>
+        <div class="navmenu">
+            <ul class="nav">
+                <li><a href="index.html">추천</a></li>
+                <li><a href="category.html" class="active">분류</a></li>
+                <li><a href="#">랭킹</a></li>
+                <li><a href="#">매거진</a></li>
+                <li><a href="#">클래스</a></li>
+                <li><a href="#">만개스토어</a></li>
+                <li><a href="#">더보기</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div id="wrapper">
+        <article>
+            <div class="sortingcate">
+                <div id="catetable">
+                    <table id="recipecategory">
+                        <tbody class="recipe_cate">
+                            <tr>
+                                <th>
+                                    <span>종류별</span>
+                                    <span>상황별</span>
+                                    <span>재료별</span>
+                                    <span>방법별</span>
+                                </th>
+                                <td>
+                                    <div class="recipe_cate_list">
+                                        <div class="cate_list">
+                                            <a>전체</a>
+                                            <a>밑반찬</a>
+                                            <a>메인반찬</a>
+                                            <a>국/탕</a>
+                                            <a>찌개</a>
+                                            <a>디저트</a>
+                                            <a>면/만두</a>
+                                            <a>밥/죽/떡</a>
+                                            <a>퓨전</a>
+                                            <a>김치/젓갈/장류</a>
+                                            <a>양념/소스/잼</a>
+                                            <a>양식</a>
+                                            <a>샐러드</a>
+                                            <a>스프</a>
+                                            <a>빵</a>
+                                            <a>과자</a>
+                                            <a>차/음료/술</a>
+                                            <a>기타</a>
+                                        </div>
+                                        <div class="cate_list">
+                                            <a>전체</a>
+                                            <a>일상</a>
+                                            <a>초스피드</a>
+                                            <a>손님접대</a>
+                                            <a>술안주</a>
+                                            <a>다이어트</a>
+                                            <a>도시락</a>
+                                            <a>영양식</a>
+                                            <a>간식</a>
+                                            <a>야식</a>
+                                            <a>푸드스타일링</a>
+                                            <a>해장</a>
+                                            <a>명절</a>
+                                            <a>이유식</a>
+                                            <a>기타</a>
+                                        </div>
+                                        <div class="cate_list">
+                                            <a>전체</a>
+                                            <a>소고기</a>
+                                            <a>돼지고기</a>
+                                            <a>닭고기</a>
+                                            <a>육류</a>
+                                            <a>채소류</a>
+                                            <a>해물류</a>
+                                            <a>달걀/유제품</a>
+                                            <a>가공식품류</a>
+                                            <a>쌀</a>
+                                            <a>밀가루</a>
+                                            <a>건어물류</a>
+                                            <a>버섯류</a>
+                                            <a>과일류</a>
+                                            <a>콩/견과류</a>
+                                            <a>곡류</a>
+                                            <a>기타</a>
+                                        </div>
+                                        <div class="cate_list">
+                                            <a>전체</a>
+                                            <a>볶음</a>
+                                            <a>끓이기</a>
+                                            <a>부침</a>
+                                            <a>조림</a>
+                                            <a>무침</a>
+                                            <a>비빔</a>
+                                            <a>찜</a>
+                                            <a>절임</a>
+                                            <a>튀김</a>
+                                            <a>삶기</a>
+                                            <a>굽기</a>
+                                            <a>데치기</a>
+                                            <a>회</a>
+                                            <a>기타</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div id="recipecateclose">
+                    <p id="catebtn">카테고리 닫기</p>
+                </div>
+            </div>
+            <script src="js/jquery-3.6.0.min.js"></script>
+            <script>
+                btn = document.getElementById('recipecateclose');
+                catetable = document.getElementById('catetable');
+                catebtn = document.getElementById('catebtn');
+                var i = 0;
+
+                btn.addEventListener('click', function () {
+                    catetable.classList.toggle('close');
+                    btntext.toggle(i);
+                });
+            </script>
+
+            <div class="contentsBox" id="categoryrecipe">
+                <dl>
+                    <dt>
+                        <h4><a href="#">한정수량 <span>미친 특가</span></a></h4>
+                    </dt>
+                    <dd>
+                        <a class="contentsBoxArrow" id="prevarrow"><img src="img/icon_arrow3_pre.png" alt=""></a>
+                        <a class="contentsBoxArrow" id="nextarrow"><img src="img/icon_arrow3_next.png" alt=""></a>
+                        <div id="slider">
+                            <!--슬라이드 이미지 바깥 테두리. 너비제한-->
+                            <div id="slides">
+                                <!--내용물 자체. 너비 통째로인 그것-->
+
+                                <div class="slide">
+                                    <div class="banner">
+                                        <div class="bannerimg"><img src="img/ad (1).jpg" alt=""></div>
+                                        <div class="bannerdiscription">
+                                            <h4>상품이름1</h4>
+                                            <div class="pricebox">
+                                                <strong>가격9,900원</strong>
+                                                <span>340개 구매</span>
+                                            </div>
+                                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><span>리뷰갯수</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="banner">
+                                        <div class="bannerimg"><img src="img/ad (2).jpg" alt=""></div>
+                                        <div class="bannerdiscription">
+                                            <h4>상품이름2</h4>
+                                            <div class="pricebox">
+                                                <strong>가격9,900원</strong>
+                                                <span>340개 구매</span>
+                                            </div>
+                                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><span>리뷰갯수</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="banner">
+                                        <div class="bannerimg"><img src="img/ad (3).jpg" alt=""></div>
+                                        <div class="bannerdiscription">
+                                            <h4>상품이름3</h4>
+                                            <div class="pricebox">
+                                                <strong>가격9,900원</strong>
+                                                <span>340개 구매</span>
+                                            </div>
+                                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><span>리뷰갯수</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="banner">
+                                        <div class="bannerimg"><img src="img/ad (4).jpg" alt=""></div>
+                                        <div class="bannerdiscription">
+                                            <h4>상품이름4</h4>
+                                            <div class="pricebox">
+                                                <strong>가격9,900원</strong>
+                                                <span>340개 구매</span>
+                                            </div>
+                                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><span>리뷰갯수</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="banner">
+                                        <div class="bannerimg"><img src="img/ad (5).jpg" alt=""></div>
+                                        <div class="bannerdiscription">
+                                            <h4>상품이름5</h4>
+                                            <div class="pricebox">
+                                                <strong>가격9,900원</strong>
+                                                <span>340개 구매</span>
+                                            </div>
+                                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><span>리뷰갯수</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="banner">
+                                        <div class="bannerimg"><img src="img/ad (6).jpg" alt=""></div>
+                                        <div class="bannerdiscription">
+                                            <h4>상품이름6</h4>
+                                            <div class="pricebox">
+                                                <strong>가격9,900원</strong>
+                                                <span>340개 구매</span>
+                                            </div>
+                                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><span>리뷰갯수</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="banner">
+                                        <div class="bannerimg"><img src="img/ad (7).jpg" alt=""></div>
+                                        <div class="bannerdiscription">
+                                            <h4>상품이름7</h4>
+                                            <div class="pricebox">
+                                                <strong>가격9,900원</strong>
+                                                <span>340개 구매</span>
+                                            </div>
+                                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><span>리뷰갯수</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="banner">
+                                        <div class="bannerimg"><img src="img/ad (8).jpg" alt=""></div>
+                                        <div class="bannerdiscription">
+                                            <h4>상품이름8</h4>
+                                            <div class="pricebox">
+                                                <strong>가격9,900원</strong>
+                                                <span>340개 구매</span>
+                                            </div>
+                                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><span>리뷰갯수</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="banner">
+                                        <div class="bannerimg"><img src="img/ad (9).jpg" alt=""></div>
+                                        <div class="bannerdiscription">
+                                            <h4>상품이름9</h4>
+                                            <div class="pricebox">
+                                                <strong>가격9,900원</strong>
+                                                <span>340개 구매</span>
+                                            </div>
+                                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><span>리뷰갯수</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="banner">
+                                        <div class="bannerimg"><img src="img/ad (10).jpg" alt=""></div>
+                                        <div class="bannerdiscription">
+                                            <h4>상품이름10</h4>
+                                            <div class="pricebox">
+                                                <strong>가격9,900원</strong>
+                                                <span>340개 구매</span>
+                                            </div>
+                                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><span>리뷰갯수</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="banner">
+                                        <div class="bannerimg"><img src="img/ad (11).jpg" alt=""></div>
+                                        <div class="bannerdiscription">
+                                            <h4>상품이름11</h4>
+                                            <div class="pricebox">
+                                                <strong>가격9,900원</strong>
+                                                <span>340개 구매</span>
+                                            </div>
+                                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><span>리뷰갯수</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="banner">
+                                        <div class="bannerimg"><img src="img/ad (12).jpg" alt=""></div>
+                                        <div class="bannerdiscription">
+                                            <h4>상품이름12</h4>
+                                            <div class="pricebox">
+                                                <strong>가격9,900원</strong>
+                                                <span>340개 구매</span>
+                                            </div>
+                                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><span>리뷰갯수</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="banner">
+                                        <div class="bannerimg"><img src="img/ad (13).jpg" alt=""></div>
+                                        <div class="bannerdiscription">
+                                            <h4>상품이름13</h4>
+                                            <div class="pricebox">
+                                                <strong>가격9,900원</strong>
+                                                <span>340개 구매</span>
+                                            </div>
+                                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><span>리뷰갯수</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="banner">
+                                        <div class="bannerimg"><img src="img/ad (14).jpg" alt=""></div>
+                                        <div class="bannerdiscription">
+                                            <h4>상품이름14</h4>
+                                            <div class="pricebox">
+                                                <strong>가격9,900원</strong>
+                                                <span>340개 구매</span>
+                                            </div>
+                                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><span>리뷰갯수</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="banner">
+                                        <div class="bannerimg"><img src="img/ad (15).jpg" alt=""></div>
+                                        <div class="bannerdiscription">
+                                            <h4>상품이름15</h4>
+                                            <div class="pricebox">
+                                                <strong>가격9,900원</strong>
+                                                <span>340개 구매</span>
+                                            </div>
+                                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><span>리뷰갯수</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="banner">
+                                        <div class="bannerimg"><img src="img/ad (16).jpg" alt=""></div>
+                                        <div class="bannerdiscription">
+                                            <h4>상품이름16</h4>
+                                            <div class="pricebox">
+                                                <strong>가격9,900원</strong>
+                                                <span>340개 구매</span>
+                                            </div>
+                                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><span>리뷰갯수</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="banner">
+                                        <div class="bannerimg"><img src="img/ad (17).jpg" alt=""></div>
+                                        <div class="bannerdiscription">
+                                            <h4>상품이름17</h4>
+                                            <div class="pricebox">
+                                                <strong>가격9,900원</strong>
+                                                <span>340개 구매</span>
+                                            </div>
+                                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><span>리뷰갯수</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="banner">
+                                        <div class="bannerimg"><img src="img/ad (18).jpg" alt=""></div>
+                                        <div class="bannerdiscription">
+                                            <h4>상품이름18</h4>
+                                            <div class="pricebox">
+                                                <strong>가격9,900원</strong>
+                                                <span>340개 구매</span>
+                                            </div>
+                                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><span>리뷰갯수</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="banner">
+                                        <div class="bannerimg"><img src="img/ad (19).jpg" alt=""></div>
+                                        <div class="bannerdiscription">
+                                            <h4>상품이름19</h4>
+                                            <div class="pricebox">
+                                                <strong>가격9,900원</strong>
+                                                <span>340개 구매</span>
+                                            </div>
+                                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><span>리뷰갯수</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="banner">
+                                        <div class="bannerimg"><img src="img/ad (20).jpg" alt=""></div>
+                                        <div class="bannerdiscription">
+                                            <h4>상품이름20</h4>
+                                            <div class="pricebox">
+                                                <strong>가격9,900원</strong>
+                                                <span>340개 구매</span>
+                                            </div>
+                                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><span>리뷰갯수</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </dd>
+                </dl>
+            </div>
+        </article>
+
+    </div>
+    <footer>
+        <div class="container">
+            <div class="addressBox">
+                <div class="address">
+                    <address>
+                        <p><a href="#">회사소개</a> | <a href="#">광고문의</a> | <a href="#">개인정보처리방침</a> | <a href="#">이용약관</a>
+                            |
+                            <a href="#">고객센터</a>
+                        </p>
+                        <br>
+                        <p>대표 : 이인경 / E : help@10000recipe.com / F : 02) 323-5049</p>
+                        <p>서울 금천구 가산동 371-50 에이스하이엔드타워 3차 1106-1호</p>
+                        <p>문의전화(운영시간 평일 10:00~18:00)</p>
+                        <p>쇼핑문의(만개스토어) : 02-6953-4433</p>
+                        <p>서비스 이용문의 : 070-4896-6416</p><br>
+                        <p>(주)이지에이치엘디 / 사업자등록번호 117-81-44101 / 통신판매업신고</p>
+                        <p>제 2009-서울금천-0631호 / 벤처기업확인 / 사업자정보확인</p>
+                        <p>서울지방중소기업청 제 031134233-1-01643호</p><br>
+                        <p>Copyright ©EZHLD Inc. All Rights Reserved</p>
+                    </address>
+                </div>
+
+                <div class="sns">
+                    <div class="appstore">
+                        <div class="appdownload">
+                            <a href="#"><img src="img/btm_app2.gif" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="websnslink">
+                        <div><a href="#"><img src="img/btm_sns_1.gif" alt=""></a></div>
+                        <div><a href="#"><img src="img/btm_sns_2.gif" alt=""></a></div>
+                        <div><a href="#"><img src="img/btm_sns_3.gif" alt=""></a></div>
+                        <div><a href="#"><img src="img/btm_sns_4.gif" alt=""></a></div>
+                        <div><a href="#"><img src="img/btm_sns_4_1.gif" alt=""></a></div>
+                        <div><a href="#"><img src="img/btm_sns_5.gif" alt=""></a></div>
+                        <div><a href="#"><img src="img/btm_sns_6.gif" alt=""></a></div>
+                        <div><a href="#"><img src="img/btm_sns_7.gif" alt=""></a></div>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <textarea name="customer" id="customer" cols="60" rows="15"></textarea>
+                    <button type="button" class="btm-button">의견제출</button>
+                    <p class="noti">개별회신을 원하시면 <a href="#" style="text-decoration:underline; color:#666;">여기</a>에 문의하세요.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="total">
+            <div class="totalcontainer">
+
+                <div class="logobottom">
+                    <img src="img/logo6.png" alt="">
+                </div>
+
+                <div class="icon">
+                    <img src="img/btm_icon1.png" alt="">
+                    <p>제휴업체수</p>
+                    <b>524</b>
+                </div>
+                <div class="icon">
+                    <img src="img/btm_icon2.png" alt="">
+                    <p>총 쉐프수</p>
+                    <b>2,883</b>
+                </div>
+                <div class="icon">
+                    <img src="img/btm_icon3.png" alt="">
+                    <p>총 레시피수</p>
+                    <b>164,528</b>
+                </div>
+                <div class="icon">
+                    <img src="img/btm_icon4.png" alt="">
+                    <p>월 방문자수</p>
+                    <b>5,140,000</b>
+                </div>
+                <div class="icon">
+                    <img src="img/btm_icon5.png" alt="">
+                    <p>총 레시피 조회수</p>
+                    <b>2,205,873,430</b>
+                </div>
+                <div class="contact">
+                    <img src="img/btm_img1.png" alt="">
+                    <a href="#"><img src="img/btm_img2.png" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="fin">
+            <img src="img/btm_since.png" alt="">
+        </div>
+
+
+    </footer>
+
+    <script src="js/bannerslide.js"></script>
+</body>
+
+</html>

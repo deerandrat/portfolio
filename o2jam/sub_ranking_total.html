@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오투잼 :: O2JAM - Casual music game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="css/frame.css">
+    <link rel="stylesheet" href="css/totalranking.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/contents.css">
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <!--배급사 헤더-->
+    <div id="pubhead">
+        <span id="pubmenu"><a href="#"><i class="fas fa-bars"></i></a></span>
+        <span id="publogo"><a href="#"><img src="img/jamitsonlogo.jpg" alt="jamitson"></a></span>
+    </div>
+
+    <!--본페이지-->
+    <div class="main">
+        <!--공통네비메뉴-->
+        <div id="headerwrapper">
+            <header>
+                <div id="logo"><a href="index.html"><img src="img/logo.png" alt=""></a></div>
+                <ul class="mainmenu" onmouseover="hover();">
+                    <li><a href="#">새소식</a>
+                        <ul class="submenu">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">업데이트</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">GM노트</a></li>
+                            <li><a href="#">아바타샵</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">가이드</a>
+                        <ul class="submenu">
+                            <li><a href="#">오투잼 소개</a></li>
+                            <li><a href="sub_guide_control.html">게임 방법</a></li>
+                            <li><a href="#">게임 모드</a></li>
+                            <li><a href="sub_guide_playlist.html">플레이리스트</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">커뮤니티</a>
+                        <ul class="submenu">
+                            <li><a href="#">자유게시판</a></li>
+                            <li><a href="sub_community_charTalk.html">캐릭터TALK</a></li>
+                            <li><a href="#">공략&팁</a></li>
+                            <li><a href="#">창작게시판</a></li>
+                            <li><a href="#">JamJam크리에이터</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">랭킹</a>
+                        <ul class="submenu">
+                            <li><a href="sub_ranking_total.html">종합랭킹</a></li>
+                            <li><a href="#">곡 별 랭킹</a></li>
+                            <li><a href="#">밴드랭킹</a></li>
+                            <li><a href="#">크루랭킹</a></li>
+                            <li><a href="#">인기도랭킹</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">고객지원</a>
+                        <ul class="submenu">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">1:1문의하기</a></li>
+                            <li><a href="#">운영정책</a></li>
+                            <li><a href="#">버그신고</a></li>
+                            <li><a href="#">2차비밀번호 변경</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </header>
+        </div>
+        <!--공통 네비메뉴 끝-->
+        <article>
+            <div id="menutitle">
+                <div class="menutitlewrap">
+                    <h2>종합랭킹</h2>
+                    <span>TOTAL RANKING</span>
+                </div>
+            </div>
+
+            <div class="contents">
+                <div class="contentstitle">
+                    <h3></h3>
+                    <h4></h4>
+                </div>
+                <div class="contentwrapper">
+                    <ul class="sidebar">
+                        <li><a href="sub_ranking_total.html" style="color:orange">종합랭킹</a></li>
+                        <li>곡 별 랭킹</li>
+                        <li><a href="#">밴드랭킹</a></li>
+                        <li><a href="#">크루랭킹</a></li>
+                        <li><a href="#">인기도랭킹</a></li>
+                    </ul>
+
+                    <div class="content">
+                        <div class="rankingheader">
+                            <select class="searchmethod" name="캐릭터명으로 검색" id="">
+                                <option value="">캐릭터명으로 검색</option>
+                                <option value="">서버명으로 검색</option>
+                                <option value="">크루명으로 검색</option>
+                            </select>
+                            <input type="text" class="searchbox">
+                            <button type="submit" class="submitsearch"><i class="fas fa-search"></i></button>
+                        </div>
+                        <table>
+                            <tbody>
+                                <tr class="topchart">
+                                    <th>순위</th><th>캐릭터명</th><th>레벨</th><th>서버</th><th>최고점수</th><th>최고등급</th><th>크루명</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>13</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>14</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>15</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>16</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>17</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>18</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>19</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>20</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>21</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>22</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>23</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>24</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                                <tr>
+                                    <td>25</td><td>캐릭터명</td><td>70</td><td>스카니아</td><td>10,000,000,230</td><td>SSS</td><td>크루명</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br><br>
+                        <div class="listbutton">
+                            <span>
+                            <button type="button" class="hundbtn"><<</button><button type="button" class="tenbtn"><</button>
+                        </span>
+                        <span>
+                            <strong>1</strong> 2 3 4 5 6 7 8 9 10
+                        </span>
+                        <span>
+                            <button type="button" class="tenbtn">></button><button type="button" class="hundbtn">>></button>
+                        </span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </article>
+    </div>
+
+    <footer>
+        <div class="footerwrapper">
+            <div class="addressfooter">
+                <address>
+                    <p class="linkto">회사소개 | 채용안내 | 이용약관 | 게임이용등급안내 | 개인정보처리방침 | 청소년보호정책 | 운영정책 | 사이트맵</p><br>
+                    <p>주)잼있슨 대표이사 : 홍길동 경기도 성남시 분당구 판교로 216번길 5 전화: 1588-7615 팩스:0504-731-5201</p>
+                    <p>E-mail:contact-us@JAMITSON.co.kr 사업자등록번호 : 220-87-17842호 통신판매업 신고번호 : 제2021-경기성남-1659호 사업자정보확인
+                    </p>
+                    <p>ⓒ O2JAM Korea Corporation All Rights Reserved.</p>
+                    <p><img src="img/jamitsonlogosmall.png" alt=""></p>
+                </address>
+            </div>
+
+            <div>
+                <select class="familysite" name="패밀리 사이트" id="familysite" onchange="window.open(value, '_blank');">
+                    <option value="index.html" selected="selected">Family site</option>
+                    <option value="https://github.com/SeungminChu">github</option>
+                    <option value="https://linkedin.com/in/seungminchu"><a href="#">linkedIn</a></option>
+                </select>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
